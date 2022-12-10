@@ -1,0 +1,38 @@
+@media screen and (max-width: 400px) {
+  .info {
+    width: 100%;
+  }
+
+  ::placeholder {
+    font-size: 70%;
+  }
+
+  .info p {
+    font-size: 13px;
+  }
+
+  .info span {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    width: 90%;
+  }
+
+  .welcomeScreen-title {
+    font-size: 19px;
+  }
+
+  #new-game-btn {
+    width: 40%;
+    padding: 0.6rem;
+  }
+
+  .bottom-part button {
+    width: 60%;
+    margin-top: 1rem;
+    padding: 0.7rem;
+  }
+}
